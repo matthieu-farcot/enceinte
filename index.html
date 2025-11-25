@@ -12,13 +12,13 @@ VR@Cormont project repo
   </head>
   <body>
     <a-assets>
-      <a-asset-item id="Back.obj" src="./assets/Back.obj"></a-asset-item>
-      <a-asset-item id="Batteries.obj" src="./assets/Batteries.obj"></a-asset-item>
-      <a-asset-item id="Left.obj" src="./assets/Left.obj"></a-asset-item>
-      <a-asset-item id="Open.obj" src="./assets/Open.obj"></a-asset-item>
-      <a-asset-item id="Right.obj" src="./assets/Right.obj"></a-asset-item>
-      <a-asset-item id="Speaker.obj" src="./assets/Speaker.obj"></a-asset-item>
-      <a-asset-item id="Top.obj" src="./assets/Top.obj"></a-asset-item>
+      <a-asset-item id="Back" src="./assets/Back.obj"></a-asset-item>
+      <a-asset-item id="Batteries" src="./assets/Batteries.obj"></a-asset-item>
+      <a-asset-item id="Left" src="./assets/Left.obj"></a-asset-item>
+      <a-asset-item id="Open" src="./assets/Open.obj"></a-asset-item>
+      <a-asset-item id="Right" src="./assets/Right.obj"></a-asset-item>
+      <a-asset-item id="Speaker" src="./assets/Speaker.obj"></a-asset-item>
+      <a-asset-item id="Top" src="./assets/Top.obj"></a-asset-item>
     </a-assets>
     <a-scene>
       <!-- Camera -->
@@ -27,13 +27,13 @@ VR@Cormont project repo
       <a-entity light="type: ambient; intensity: 0.7; color: #ffffff"></a-entity>
       <a-entity light="type: directional; intensity: 0.8; castShadow: true" position="3 5 2"></a-entity>
       <!-- OBJ Models, positioned relative to visible center -->
-      <a-entity obj-model="obj: #Back.obj"     position="0 1 0" rotation="0 0 0" scale="1 1 1"></a-entity>
-      <a-entity obj-model="obj: #left.obj"    position="-0.8 0 0" rotation="0 0 0" scale="1 1 1"></a-entity>
-      <a-entity obj-model="obj: #right.obj"   position="0.8 0 0" rotation="0 0 0" scale="1 1 1"></a-entity>
-      <a-entity obj-model="obj: #Batteries.obj"    position="0 0 -0.8" rotation="0 0 0" scale="1 1 1"></a-entity>
-      <a-entity obj-model="obj: #open.obj"   position="0 0 0.8" rotation="0 0 0" scale="1 1 1"></a-entity>
-      <a-entity obj-model="obj: #speaker.obj"   position="0 0 0.8" rotation="0 0 0" scale="1 1 1"></a-entity>
-      <a-entity obj-model="obj: #top.obj"   position="0 0 0.8" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity obj-model="obj: #Back"     position="0 1 0" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity obj-model="obj: #Left"    position="-0.8 0 0" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity obj-model="obj: #Right"   position="0.8 0 0" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity obj-model="obj: #Batteries"    position="0 0 -0.8" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity obj-model="obj: #Open"   position="0 0 0.8" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity obj-model="obj: #Speaker"   position="0 0 0.8" rotation="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity obj-model="obj: #Top"   position="0 0 0.8" rotation="0 0 0" scale="1 1 1"></a-entity>
     </a-scene>
   </body>
 </html>
